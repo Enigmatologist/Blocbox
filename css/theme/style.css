@@ -762,6 +762,105 @@
 
   .four--eleven-twelfths {
     width: 91.666%; } }
+@media only screen and (min-width: 1175px) {
+  /**
+   * Whole
+   */
+  .five--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  .five--one-half, .five--two-quarters, .five--three-sixths, .five--four-eighths, .five--five-tenths, .five--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  .five--one-third, .five--two-sixths, .five--four-twelfths {
+    width: 33.333%; }
+
+  .five--two-thirds, .five--four-sixths, .five--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  .five--one-quarter, .five--two-eighths, .five--three-twelfths {
+    width: 25%; }
+
+  .five--three-quarters, .five--six-eighths, .five--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  .five--one-fifth, .five--two-tenths {
+    width: 20%; }
+
+  .five--two-fifths, .five--four-tenths {
+    width: 40%; }
+
+  .five--three-fifths, .five--six-tenths {
+    width: 60%; }
+
+  .five--four-fifths, .five--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  .five--one-sixth, .five--two-twelfths {
+    width: 16.666%; }
+
+  .five--five-sixths, .five--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  .five--one-eighth {
+    width: 12.5%; }
+
+  .five--three-eighths {
+    width: 37.5%; }
+
+  .five--five-eighths {
+    width: 62.5%; }
+
+  .five--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  .five--one-tenth {
+    width: 10%; }
+
+  .five--three-tenths {
+    width: 30%; }
+
+  .five--seven-tenths {
+    width: 70%; }
+
+  .five--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  .five--one-twelfth {
+    width: 8.333%; }
+
+  .five--five-twelfths {
+    width: 41.666%; }
+
+  .five--seven-twelfths {
+    width: 58.333%; }
+
+  .five--eleven-twelfths {
+    width: 91.666%; } }
 /*------------------------------------*\
     $PUSH
 \*------------------------------------*/
@@ -1368,6 +1467,105 @@
 
   .push--four--eleven-twelfths {
     left: 91.666%; } }
+@media only screen and (min-width: 1175px) {
+  /**
+   * Whole
+   */
+  .push--five--one-whole {
+    left: 100%; }
+
+  /**
+   * Halves
+   */
+  .push--five--one-half, .push--five--two-quarters, .push--five--three-sixths, .push--five--four-eighths, .push--five--five-tenths, .push--five--six-twelfths {
+    left: 50%; }
+
+  /**
+   * Thirds
+   */
+  .push--five--one-third, .push--five--two-sixths, .push--five--four-twelfths {
+    left: 33.333%; }
+
+  .push--five--two-thirds, .push--five--four-sixths, .push--five--eight-twelfths {
+    left: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  .push--five--one-quarter, .push--five--two-eighths, .push--five--three-twelfths {
+    left: 25%; }
+
+  .push--five--three-quarters, .push--five--six-eighths, .push--five--nine-twelfths {
+    left: 75%; }
+
+  /**
+   * Fifths
+   */
+  .push--five--one-fifth, .push--five--two-tenths {
+    left: 20%; }
+
+  .push--five--two-fifths, .push--five--four-tenths {
+    left: 40%; }
+
+  .push--five--three-fifths, .push--five--six-tenths {
+    left: 60%; }
+
+  .push--five--four-fifths, .push--five--eight-tenths {
+    left: 80%; }
+
+  /**
+   * Sixths
+   */
+  .push--five--one-sixth, .push--five--two-twelfths {
+    left: 16.666%; }
+
+  .push--five--five-sixths, .push--five--ten-twelfths {
+    left: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  .push--five--one-eighth {
+    left: 12.5%; }
+
+  .push--five--three-eighths {
+    left: 37.5%; }
+
+  .push--five--five-eighths {
+    left: 62.5%; }
+
+  .push--five--seven-eighths {
+    left: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  .push--five--one-tenth {
+    left: 10%; }
+
+  .push--five--three-tenths {
+    left: 30%; }
+
+  .push--five--seven-tenths {
+    left: 70%; }
+
+  .push--five--nine-tenths {
+    left: 90%; }
+
+  /**
+   * Twelfths
+   */
+  .push--five--one-twelfth {
+    left: 8.333%; }
+
+  .push--five--five-twelfths {
+    left: 41.666%; }
+
+  .push--five--seven-twelfths {
+    left: 58.333%; }
+
+  .push--five--eleven-twelfths {
+    left: 91.666%; } }
 /*------------------------------------*\
     $PULL
 \*------------------------------------*/
@@ -1973,6 +2171,105 @@
     right: 58.333%; }
 
   .pull--four--eleven-twelfths {
+    right: 91.666%; } }
+@media only screen and (min-width: 1175px) {
+  /**
+   * Whole
+   */
+  .pull--five--one-whole {
+    right: 100%; }
+
+  /**
+   * Halves
+   */
+  .pull--five--one-half, .pull--five--two-quarters, .pull--five--three-sixths, .pull--five--four-eighths, .pull--five--five-tenths, .pull--five--six-twelfths {
+    right: 50%; }
+
+  /**
+   * Thirds
+   */
+  .pull--five--one-third, .pull--five--two-sixths, .pull--five--four-twelfths {
+    right: 33.333%; }
+
+  .pull--five--two-thirds, .pull--five--four-sixths, .pull--five--eight-twelfths {
+    right: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  .pull--five--one-quarter, .pull--five--two-eighths, .pull--five--three-twelfths {
+    right: 25%; }
+
+  .pull--five--three-quarters, .pull--five--six-eighths, .pull--five--nine-twelfths {
+    right: 75%; }
+
+  /**
+   * Fifths
+   */
+  .pull--five--one-fifth, .pull--five--two-tenths {
+    right: 20%; }
+
+  .pull--five--two-fifths, .pull--five--four-tenths {
+    right: 40%; }
+
+  .pull--five--three-fifths, .pull--five--six-tenths {
+    right: 60%; }
+
+  .pull--five--four-fifths, .pull--five--eight-tenths {
+    right: 80%; }
+
+  /**
+   * Sixths
+   */
+  .pull--five--one-sixth, .pull--five--two-twelfths {
+    right: 16.666%; }
+
+  .pull--five--five-sixths, .pull--five--ten-twelfths {
+    right: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  .pull--five--one-eighth {
+    right: 12.5%; }
+
+  .pull--five--three-eighths {
+    right: 37.5%; }
+
+  .pull--five--five-eighths {
+    right: 62.5%; }
+
+  .pull--five--seven-eighths {
+    right: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  .pull--five--one-tenth {
+    right: 10%; }
+
+  .pull--five--three-tenths {
+    right: 30%; }
+
+  .pull--five--seven-tenths {
+    right: 70%; }
+
+  .pull--five--nine-tenths {
+    right: 90%; }
+
+  /**
+   * Twelfths
+   */
+  .pull--five--one-twelfth {
+    right: 8.333%; }
+
+  .pull--five--five-twelfths {
+    right: 41.666%; }
+
+  .pull--five--seven-twelfths {
+    right: 58.333%; }
+
+  .pull--five--eleven-twelfths {
     right: 91.666%; } }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -6518,6 +6815,11 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /* STANDARD STYLES */
 html, body {
   overflow-x: hidden; }
@@ -6553,8 +6855,21 @@ h1, h2, h3, h4, h5, h6 {
       text-align: left;
       margin: 0 3%; } }
 
+.main_nav .btn-outline {
+  padding: 10px 12px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  text-align: center;
+  width: 48%;
+  float: right;
+  margin: 10px auto; }
+  @media (min-width: 560px) {
+    .main_nav .btn-outline {
+      width: auto;
+      margin: 0 3%; } }
+
 .main_nav .log-in {
-  width: 37.5%;
+  width: 48%;
   float: left;
   text-align: center;
   margin: 10px auto;
@@ -6563,37 +6878,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px; }
   @media (min-width: 560px) {
     .main_nav .log-in {
-      text-align: right;
-      width: 36.5%;
-      margin: 12px 0;
+      width: auto;
+      margin: 12px 10px;
       padding: 0;
       border: 0;
-      border-radius: 0; } }
-  @media (min-width: 680px) {
-    .main_nav .log-in {
-      width: 45%; } }
-  @media (min-width: 1000px) {
-    .main_nav .log-in {
-      width: 57%; } }
-
-.main_nav .btn-outline {
-  padding: 10px 10px;
-  border: 2px solid #FFFFFF;
-  border-radius: 4px;
-  text-align: center;
-  width: 37.5%;
-  float: right;
-  margin: 10px auto; }
-  @media (min-width: 560px) {
-    .main_nav .btn-outline {
-      width: 44.5%;
-      margin: 0 3%; } }
-  @media (min-width: 680px) {
-    .main_nav .btn-outline {
-      width: 34%; } }
-  @media (min-width: 1000px) {
-    .main_nav .btn-outline {
-      width: 26%; } }
+      border-radius: 0;
+      float: right; } }
 
 .main_nav .btn-outline > a, .main_nav .log-in > a {
   color: #ffffff;
@@ -7000,5 +7290,55 @@ header .hero p {
   @media (min-width: 1280px) {
     .footer-nav-block .logo {
       float: right; } }
+
+/* DASHBOARD */
+.dashboard {
+  background: #f7f7f7; }
+
+.left-nav {
+  height: 100vh;
+  width: 14.66666667%;
+  color: #ffffff;
+  background: #00331e;
+  background-image: linear-gradient(75deg, #00331e, #3e7f62);
+  float: left;
+  position: fixed;
+  display: block; }
+
+.left-nav .site-logo {
+  padding: 20px 0;
+  background: #00331e;
+  display: block;
+  text-align: center; }
+
+.left-nav .items {
+  padding: 0 6%; }
+
+.left-nav .items p {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #e2e2e2;
+  line-height: 15px; }
+
+.left-nav .items ul {
+  margin: 0 0 40px;
+  padding: 0; }
+
+.left-nav .items ul li {
+  list-style-type: none;
+  margin-bottom: 15px; }
+
+.left-nav .items ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 100; }
+
+.left-nav .items ul li a i {
+  width: 16px;
+  text-align: center;
+  margin-right: 8px; }
+
+/* LEFT NAVBAR SETTINGS */
 
 /*# sourceMappingURL=style.css.map */
