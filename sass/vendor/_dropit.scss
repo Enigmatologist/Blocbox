@@ -15,7 +15,9 @@
     float: right;
     display: inline-block
 }
-.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-trigger { 
+    position: relative; 
+}
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
