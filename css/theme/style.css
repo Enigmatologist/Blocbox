@@ -6815,6 +6815,68 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+/*
+ * Dropit v1.1.0
+ * http://dev7studios.com/dropit
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+/* These styles assume you are using ul and li */
+.dropit {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  float: right;
+  display: inline-block; }
+
+.dropit .dropit-trigger {
+  position: relative; }
+
+.dropit .dropit-submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  /* dropdown left or right */
+  z-index: 1000;
+  display: none;
+  min-width: 100px;
+  list-style: none;
+  padding: 20px;
+  margin: 20px 0 0; }
+
+.dropit .dropit-open .dropit-submenu {
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 4px; }
+
+.dropit .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -8px;
+  right: 10px; }
+
+.dropit .dropit-open .dropit-submenu li {
+  display: block;
+  margin-bottom: 20px; }
+
+.dropit .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px; }
+
+.dropit .dropit-open .dropit-submenu li a {
+  color: #00331e;
+  text-decoration: none;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -6919,6 +6981,9 @@ header .hero {
   background-position: center;
   display: table;
   min-height: 345px; }
+  @media (min-width: 1000px) {
+    header .hero {
+      min-height: 490px; } }
 
 header .hero h1 {
   font-size: 36px;
@@ -6950,7 +7015,7 @@ header .hero p {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-decoration: none;
-  padding: 17px 40px;
+  padding: 15px 34px;
   background: #ebc300;
   border: 2px solid #ebc300;
   box-shadow: 0px 2px 0px 0px #c6a400; }
@@ -7320,15 +7385,85 @@ header .hero p {
   background: #f7f7f7; }
 
 .left-nav {
-  height: 100vh;
-  width: 14.66666667%;
+  height: 100%;
+  width: 280px;
   color: #ffffff;
   background: #00331e;
   background-image: linear-gradient(75deg, #00331e, #3e7f62);
   float: left;
-  position: fixed;
-  display: block; }
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transform: translate(-280px, 0);
+  -webkit-transform: translate(-280px, 0);
+  /** Chrome & Safari **/
+  -o-transform: translate(-280px, 0);
+  /** Opera **/
+  -moz-transform: translate(-280px, 0);
+  /** Firefox **/ }
 
+.left-nav.open {
+  display: block;
+  width: 280px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  /** Chrome & Safari **/
+  -o-transform: translate(0, 0);
+  /** Opera **/
+  -moz-transform: translate(0, 0);
+  /** Firefox **/
+  z-index: 100; }
+
+.hamburger {
+  position: absolute;
+  /* So it always appears in top left corner */
+  z-index: 1000;
+  /* In order to set Icon to front */
+  background: #00331e;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  left: 5px;
+  top: 15px; }
+
+@media (min-width: 992px) {
+  .left-nav {
+    height: 100vh;
+    width: 14.66666667%;
+    color: #ffffff;
+    background: #00331e;
+    background-image: linear-gradient(75deg, #00331e, #3e7f62);
+    float: left;
+    position: fixed;
+    display: block;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    /** Chrome & Safari **/
+    -o-transform: translate(0, 0);
+    /** Opera **/
+    -moz-transform: translate(0, 0);
+    /** Firefox **/ }
+
+  .left-nav.open {
+    width: 14.66666667%;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    /** Chrome & Safari **/
+    -o-transform: translate(0, 0);
+    /** Opera **/
+    -moz-transform: translate(0, 0);
+    /** Firefox **/ }
+
+  .hamburger {
+    display: none; } }
 .left-nav .site-logo {
   padding: 20px 0;
   background: #00331e;

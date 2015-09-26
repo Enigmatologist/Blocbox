@@ -13,6 +13,8 @@
  <link rel="stylesheet" href="css/theme/style.css">
 </head>
 <body class="dashboard">
+  <!-- RESPONSIVE NAV -->
+  <a href="#" class="hamburger" id="menu">&#9776;</a>
   <!-- LEFT NAV -->
   <nav id="left-nav" class="left-nav">
     <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
@@ -43,7 +45,16 @@
       <div class="dcontainer">
         <div class="header">
           <h1>All Items</h1>
-          <a href="#" class="btn">+ Add</a>
+          <ul class="menu">
+            <li>
+              <a href="#" class="btn">+ Add</a>
+              <ul>
+                <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                <li><a href="#"><i class="fa fa-picture-o"></i> Images</a></li>
+                <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
+              </ul>    
+            </li>
+          </ul>  
         </div>
       </div>
       <div class="dcontainer">
@@ -107,6 +118,14 @@
       </div>  
     </section>
   </main>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/dropit.js"></script>
+  <script type="text/javascript">
+    $(".menu").dropit(); 
+    $("#menu").click(function(){
+      $("#left-nav").toggleClass("open", 200);
+    });   
+  </script>
 </body>
 </html>
 
