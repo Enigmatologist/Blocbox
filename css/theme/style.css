@@ -6824,6 +6824,7 @@ Copyright (c) 2015 Daniel Eden
  * http://www.opensource.org/licenses/mit-license.php
  */
 /* These styles assume you are using ul and li */
+/* ADD BUTTON - MENU */
 .dropit {
   list-style: none;
   padding: 0;
@@ -6872,6 +6873,60 @@ Copyright (c) 2015 Daniel Eden
   margin-bottom: 0px; }
 
 .dropit .dropit-open .dropit-submenu li a {
+  color: #00331e;
+  text-decoration: none;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
+
+/* ACCOUNT SETTINGS - MENU */
+.menu2 {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  float: right;
+  display: inline-block; }
+
+.menu2 .dropit-trigger {
+  position: relative; }
+
+.menu2 .dropit-submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  /* dropdown left or right */
+  z-index: 1000;
+  display: none;
+  min-width: 180px;
+  list-style: none;
+  padding: 20px;
+  margin: -190px 0 0; }
+
+.menu2 .dropit-open .dropit-submenu {
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 4px; }
+
+.menu2 .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 8px 0;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: 176px;
+  right: 9px; }
+
+.menu2 .dropit-open .dropit-submenu li {
+  display: block;
+  margin-bottom: 20px; }
+
+.menu2 .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px; }
+
+.menu2 .dropit-open .dropit-submenu li a {
   color: #00331e;
   text-decoration: none;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -7518,7 +7573,9 @@ header .hero p {
   width: 35px;
   border-radius: 50%;
   margin-left: 10px;
-  display: inline-block; }
+  display: inline-block;
+  position: relative;
+  top: 2px; }
 
 .left-nav .settings p {
   display: inline-block;
@@ -7527,13 +7584,14 @@ header .hero p {
   font-weight: 400;
   margin: 0 0 0 10px; }
 
-.left-nav .settings a {
+.left-nav .settings .cog-icon {
   color: #ffffff;
   text-decoration: none;
   text-align: right;
   float: right;
   margin-right: 10px;
-  margin-top: 8px; }
+  position: relative;
+  bottom: 2px; }
 
 /* CONTENT */
 .content {
@@ -7649,6 +7707,19 @@ header .hero p {
   .content-item {
     width: 23%;
     /* 4-Column Total */
-    margin: 0 1% 25px; } }
+    margin: 0 1% 25px; }
+
+  .left-nav {
+    width: 16.666667%; }
+
+  .left-nav .settings img {
+    height: 25px;
+    width: 25px; }
+
+  .left-nav .settings p {
+    font-size: 13px; }
+
+  .left-nav .settings .cog-icon {
+    bottom: 9px; } }
 
 /*# sourceMappingURL=style.css.map */

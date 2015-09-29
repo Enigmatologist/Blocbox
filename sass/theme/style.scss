@@ -750,6 +750,8 @@ header .hero p {
   border-radius: 50%;
   margin-left: 10px;
   display: inline-block;
+  position: relative;
+  top: 2px;
 }
 
 .left-nav .settings p {
@@ -760,13 +762,14 @@ header .hero p {
   margin: 0 0 0 10px;
 }
 
-.left-nav .settings a {
+.left-nav .settings .cog-icon {
   color: #ffffff;
   text-decoration: none;
   text-align: right;
   float: right;
   margin-right: 10px;
-  margin-top: 8px;
+  position: relative;
+  bottom: 2px;
 }
 
 /* CONTENT */
@@ -898,21 +901,20 @@ header .hero p {
     width: 23%; /* 4-Column Total */
     margin:0 1% 25px;
   }
+  .left-nav {
+    width: 16.666667%;
+  }
+  .left-nav .settings img {
+    height: 25px;
+    width: 25px;
+  }
+  .left-nav .settings p {
+    font-size: 13px;
+
+  }
+  .left-nav .settings .cog-icon {
+    bottom: 9px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
